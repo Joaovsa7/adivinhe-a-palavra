@@ -1,10 +1,17 @@
 <script>
+  import { MetaTags } from 'svelte-meta-tags'
+
 	import './styles/reset.css'
 
 	import Board from './components/Board/Board.svelte'
 	import Header from './components/Header/Header.svelte'
-	import Keyboard from './components/Keyboard/Keyboard.svelte'
 </script>
+
+<MetaTags
+	title="Adivinhe a Palavra"
+	description="Jogue agora o jogo de adivinhar a palavra"
+	keyword='jogo, term.ooo, wordle, palavras, adivinhar, jogo de adivinhar as palavras'
+/>
 
 <main>
 	<div class="container">

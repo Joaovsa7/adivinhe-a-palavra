@@ -1,8 +1,16 @@
 <script>
   export let letter = '';
+  export let right = false
+  export let wrongLetter = false
+  export let hasLetter = false
 </script>
 
-<div class='block'>
+<div
+  class='block'
+  class:green={right}
+  class:yellow={hasLetter}
+  class:gray={wrongLetter}
+>
   <span>{letter}</span>
 </div>
 
@@ -29,5 +37,9 @@
 
   .yellow {
     background-color: yellow;
+  }
+
+  .gray {
+    opacity: 0.7;
   }
 </style>

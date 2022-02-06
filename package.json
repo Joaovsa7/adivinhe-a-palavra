@@ -19,6 +19,7 @@
   },
   "dependencies": {
     "sirv-cli": "^2.0.0",
-    "svelte-keyboard": "^0.3.9"
+    "svelte-keyboard": "^0.3.11",
+    "svelte-meta-tags": "^2.3.0"
   }
 }
