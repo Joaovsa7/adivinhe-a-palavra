@@ -22,6 +22,12 @@
 	title="Adivinhe a Palavra"
 	description="Jogue agora o jogo de adivinhar a palavra"
 	keyword='jogo, term.ooo, wordle, palavras, adivinhar, jogo de adivinhar as palavras'
+  openGraph={{
+    url: 'https://adivinheapalavra.joaovsa.dev',
+    title: 'Adivinhe a Palavra',
+    description: 'Jogue agora o jogo de adivinhar a palavra',
+    site_name: 'Adivinhe a Palavra'
+  }}
 />
 
 
