@@ -16,7 +16,7 @@
 <main>
 	<div class="container">
 		<Header />
-		<Board name='oi' />
+		<Board />
 	</div>
 </main>
 
